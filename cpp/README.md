@@ -11,6 +11,17 @@ bazel build //:all
 bazel test //:all
 ```
 
+## Cross-Language Testing
+
+Apache Fory™ supports cross-language serialization testing to ensure compatibility between different language implementations.
+
+```bash
+# Run cross-language tests
+bazel test //cpp/fory:xlang_test
+```
+
+For more information about cross-language testing, see [Cross-Language Testing Guide](CROSS_LANGUAGE_TESTING.md).
+
 ## Environment
 
 - Bazel version: 6.3.2
